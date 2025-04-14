@@ -1,0 +1,307 @@
+﻿FARE-KE
+    |__ [DIR] Board_Evaluation
+        |__ [DIR] ADC_Performance
+            |__ [DIR] adc_excitation_voltage_analysis
+                |__ [DIR] hx711Data
+                    |__ [DIR] 20231003-0001
+                        |__ 20231003-0001_02.csv
+                        |__ 20231003-0001_03.csv
+                        |__ 20231003-0001_04.csv
+                        |__ 20231003-0001_05.csv
+                        |__ 20231003-0001_06.csv
+                        |__ 20231003-0001_07.csv
+                        |__ 20231003-0001_08.csv
+                        |__ 20231003-0001_09.csv
+                        |__ 20231003-0001_10.csv
+                    |__ hx711Data_01.csv
+                    |__ hx711Data_02.csv
+                    |__ hx711Data_03.csv
+                    |__ hx711Data_04.csv
+                    |__ hx711Data_05.csv
+                    |__ hx711Data_06.csv
+                    |__ hx711Data_07.csv
+                    |__ hx711Data_08.csv
+                    |__ hx711Data_09.csv
+                    |__ hx711Data_10.csv
+                    |__ hx711Data_11.csv
+                    |__ hx711Data_12.csv
+                |__ [DIR] mcpData
+                    |__ [DIR] 20231003-0001
+                        |__ 20231003-0001_02.csv
+                        |__ 20231003-0001_03.csv
+                        |__ 20231003-0001_04.csv
+                        |__ 20231003-0001_05.csv
+                        |__ 20231003-0001_06.csv
+                        |__ 20231003-0001_07.csv
+                        |__ 20231003-0001_08.csv
+                        |__ 20231003-0001_09.csv
+                        |__ 20231003-0001_10.csv
+                        |__ mcp20231003-0001_01.csv
+                    |__ mcpData_01.csv
+                    |__ mcpData_02.csv
+                    |__ mcpData_03.csv
+                    |__ mcpData_04.csv
+                    |__ mcpData_05.csv
+                    |__ mcpData_06.csv
+                    |__ mcpData_07.csv
+                    |__ mcpData_08.csv
+                    |__ mcpData_09.csv
+                    |__ mcpData_10.csv
+                    |__ mcpData_11.csv
+                    |__ mcpData_12.csv
+                    |__ mcpData_13.csv
+                    |__ mcpData_14.csv
+                    |__ mcpData_15.csv
+                    |__ mcpData_16.csv
+                    |__ mcpData_17.csv
+                    |__ mcpData_18.csv
+                    |__ mcpData_19.csv
+                    |__ mcpData_20.csv
+                    |__ mcpData_21.csv
+                |__ adc_excitation_voltage_analysis.py
+                |__ hx71120231003-0001_01.csv
+                |__ hx711Data_01.csv
+                |__ mcp20231003-0001_01.csv
+                |__ mcpData_01.csv
+            |__ [DIR] adc_noise_variation_analysis
+                |__ adc_noise_variation_analysis.py
+                |__ osr1024.txt
+                |__ osr128.txt
+                |__ osr2048.txt
+                |__ osr256.txt
+                |__ osr32.txt
+                |__ osr4096.txt
+                |__ osr512.txt
+                |__ osr64.txt
+            |__ [DIR] adc_sampling_rate_analysis
+                |__ adc_sampling_rate_analysis.py
+                |__ OSR_32_single_message.csv
+                |__ OSR_32_single_message_withFlush.csv
+                |__ OSR_32_single_message_withFlush_timeDelay.csv
+                |__ OSR_32_using_buffer.csv
+        |__ [DIR] Calibration_Methods
+            |__ [DIR] six_axis_calibration
+                |__ 6axiscalibration.md
+                |__ 6axisCalibrationReading.xlsx
+                |__ calibrationReadings.csv
+                |__ calibrationReadings_1.csv
+                |__ calibrationReadings_2.csv
+                |__ crosstalk_errors.md
+                |__ rawCalibrationData.csv
+                |__ six_axis_basic_calibration.py
+                |__ six_axis_evaluation.py
+                |__ six_axis_ft_plate_calibration.py
+                |__ six_axis_optimization_calibration.py
+            |__ [DIR] three_axis_calibration
+                |__ 3axisCell1CalibrationData.csv
+                |__ 3axisCell1CalibrationData_log.md
+                |__ 3axisCell2CalibrationData.csv
+                |__ 3axisCell2CalibrationData_log.md
+                |__ 3axisCell3CalibrationData.csv
+                |__ 3axisCell3CalibrationData_log.md
+                |__ 3axisCell4CalibrationData.csv
+                |__ 3axisCell4CalibrationData_log.md
+                |__ calibrationData.xlsx
+                |__ errorpercentage.png
+                |__ mcp356x_three_axis_calibration.py
+                |__ mcp356x_three_axis_calibration_comparison.py
+                |__ validationDataCell2.csv
+                |__ validationDataCell2.xls
+        |__ [DIR] Load_Cell_Comparison
+            |__ [DIR] beam_load_cell_calibration
+                |__ beam_load_cell_calibration.py
+                |__ calibration_comparison.png
+                |__ calibration_results.md
+                |__ calibrationWeightSingleBeamHX711.csv
+                |__ calibrationWeightSingleBeamMCP.csv
+            |__ [DIR] beam_load_cell_comparison
+                |__ beam_load_cell_comparison.py
+                |__ Calibration values gmF.csv
+                |__ dataFromTemperatureSignalB - connection 0 - UART COM3.csv
+                |__ loading test overnight - connection 0 - UART COM3.csv
+                |__ loadingTest - connection 0 - UART COM3.csv
+                |__ noLoad noise - connection 0 - UART COM3.csv
+                |__ temp_CZL635.csv
+                |__ temp_degraw.csv
+                |__ temp_tal220.csv
+            |__ [DIR] hx711_vs_mcp3564_comparison_v1
+                |__ dataCapture.csv
+                |__ dataCapture_2.csv
+                |__ dataCapture_2.txt
+                |__ Figure 2023-10-08 222455.png
+                |__ hx711_vs_mcp3564_comparison_v1.py
+                |__ impulseSignal.png
+            |__ [DIR] hx711_vs_mcp3564_timing_analysis
+                |__ ellapsedData.csv
+                |__ hx711_vs_mcp3564_timing_analysis.py
+            |__ [DIR] impact_load_cell_comparison
+                |__ impact_load_cell_comparison.py
+                |__ impactLoadCellcComparisonCLZ635.csv
+                |__ impactLoadCellcComparisonCLZ635_withDamping.csv
+                |__ impactLoadCellcComparisonDegraw.csv
+                |__ impactLoadCellcComparisonTAL220.csv
+                |__ SingleBeamCellCalibratedPrint.ino
+    |__ [DIR] Haptic_Device_Testing
+        |__ [DIR] Ramp_Response
+            |__ rampResponseAnalysis.py
+            |__ rampResponseTelemetry.cpp
+        |__ [DIR] Step_Response
+            |__ StepResponseAnalysis.py
+            |__ stepResponseTelemetry.cpp
+    |__ [DIR] MCP356x_Arduino_Library
+        |__ [DIR] .pio
+            |__ [DIR] build
+                |__ project.checksum
+            |__ [DIR] libdeps
+                |__ [DIR] teensy40
+                    |__ [DIR] BasicLinearAlgebra
+                        |__ [DIR] .github
+                            |__ [DIR] workflows
+                                |__ run_tests.yml
+                        |__ [DIR] examples
+                            |__ [DIR] CustomMatrix
+                                |__ CustomMatrix.ino
+                            |__ [DIR] HowToUse
+                                |__ HowToUse.ino
+                            |__ [DIR] References
+                                |__ References.ino
+                            |__ [DIR] SolveLinearEquations
+                                |__ SolveLinearEquations.ino
+                            |__ [DIR] Tensor
+                                |__ Tensor.ino
+                        |__ [DIR] impl
+                            |__ BasicLinearAlgebra.h
+                            |__ NotSoBasicLinearAlgebra.h
+                        |__ .clang-format
+                        |__ .gitignore
+                        |__ .piopm
+                        |__ BasicLinearAlgebra.h
+                        |__ ElementStorage.h
+                        |__ keywords.txt
+                        |__ library.properties
+                        |__ LICENSE
+                        |__ README.md
+                    |__ integrity.dat
+        |__ [DIR] include
+            |__ README
+        |__ [DIR] lib
+            |__ [DIR] mcp356x
+                |__ [DIR] examples
+                    |__ [DIR] Basic
+                        |__ mcp356x_basic_differential_reading.cpp
+                        |__ mcp356x_multiple_adc_sampling.cpp
+                        |__ mcp356x_multiple_channel_operations.cpp
+                        |__ mcp356x_register_operations.cpp
+                        |__ mcp356x_sampling_rate_measurement.cpp
+                        |__ mcp356x_single_channel_operations.cpp
+                        |__ README.md
+                    |__ [DIR] Calibration
+                        |__ [DIR] mcp356x_calibration_6axis_forces
+                            |__ mcp356x_calibration_6axis_forces.cpp
+                            |__ mcp356x_calibration_6axis_recorder.cpp
+                            |__ TelemetryConfiguration - connection 0 - UART COM3.csv
+                            |__ TelemetryConfiguration.txt
+                        |__ [DIR] mcp356x_calibration_basic
+                            |__ mcp356x_calibration_basic.cpp
+                            |__ mcp356x_calibration_basic.csv
+                            |__ mcp356x_calibration_basic.py
+                        |__ mcp356x_calibration_all_channels.cpp
+                        |__ mcp356x_calibration_force_basic.cpp
+                        |__ mcp356x_calibration_sbeam.cpp
+                        |__ mcp356x_triaxial_load_cell_calibration.cpp
+                        |__ README.md
+                    |__ [DIR] Comparison
+                        |__ mcp356x_comparison_hx711_sampling_rate.cpp
+                        |__ mcp356x_comparison_hx711_vs_mcp356x_force.cpp
+                        |__ mcp356x_comparison_hx711_vs_mcp356x_sampling.cpp
+                        |__ README.md
+                    |__ [DIR] Filtering
+                        |__ mcp356x_filtered_force_measurement.cpp
+                        |__ mcp356x_filtering_adc_readings.cpp
+                        |__ mcp356x_multiple_filter_comparison.cpp
+                        |__ README.md
+                    |__ [DIR] LoadCells
+                        |__ mcp356x_3axis_example.cpp
+                        |__ mcp356x_6axis_cell_reading.cpp
+                        |__ mcp356x_basic_force_reading.cpp
+                        |__ mcp356x_basic_scale_reading.cpp
+                        |__ mcp356x_basic_triaxial_reading.cpp
+                        |__ mcp356x_four_triaxial_calibration.cpp
+                        |__ mcp356x_four_triaxial_sensor_plate.cpp
+                        |__ mcp356x_multiple_load_cell_manager.cpp
+                        |__ mcp356x_polynomial_vs_matrix_comparison.cpp
+                        |__ mcp356x_triaxial_continuous_reading.cpp
+                        |__ README.md
+                    |__ [DIR] Telemetry
+                        |__ [DIR] mcp356x_telemetry_12_cells.cpp
+                            |__ mcp356x_telemetry_12_cells.cpp
+                            |__ telemetryViewerConfiguration - connection 0 - UART COM3.csv
+                            |__ telemetryViewerConfiguration.txt
+                            |__ telemetryViewerDemo.png
+                        |__ [DIR] mcp356x_triaxial_telemetry
+                            |__ 18_4x3_axis_TelemetryVewer_config - connection 0 - UART COM3.csv
+                            |__ 18_4x3_axis_TelemetryVewer_config.txt
+                            |__ 18_4x3_axis_TelemetryVewer_config_v2 - connection 0 - UART COM3.csv
+                            |__ 18_4x3_axis_TelemetryVewer_config_v2.txt
+                            |__ mcp356x_triaxial_telemetry.cpp
+                        |__ mcp356x_6axis_calibrated_telemetry.cpp
+                        |__ mcp356x_6axis_fast_update.cpp
+                        |__ mcp356x_6axis_telemetry.cpp
+                        |__ README.md
+                |__ [DIR] src
+                    |__ MCP356x.cpp
+                    |__ MCP356x.h
+                    |__ MCP356x3axis.cpp
+                    |__ MCP356x3axis.h
+                    |__ MCP356x6axis.cpp
+                    |__ MCP356x6axis.h
+                    |__ MCP356xScale.cpp
+                    |__ MCP356xScale.h
+                    |__ README.md
+                |__ library.properties
+                |__ LICENSE
+                |__ README.md
+            |__ README
+        |__ [DIR] src
+            |__ main.cpp
+        |__ .gitignore
+        |__ platformio.ini
+    |__ [DIR] MCP356x_DAQ_PCB_Board
+        |__ [DIR] ffpcbBoard
+            |__ [DIR] manufacturingPCB
+                |__ ffpcbBoard.csv
+                |__ ffpcbBoard-B_Cu.gbl
+                |__ ffpcbBoard-B_Mask.gbs
+                |__ ffpcbBoard-B_Paste.gbp
+                |__ ffpcbBoard-B_Silkscreen.gbo
+                |__ ffpcbBoard-Edge_Cuts.gm1
+                |__ ffpcbBoard-F_Cu.gtl
+                |__ ffpcbBoard-F_Mask.gts
+                |__ ffpcbBoard-F_Paste.gtp
+                |__ ffpcbBoard-F_Silkscreen.gto
+                |__ ffpcbBoard-NPTH.drl
+                |__ ffpcbBoard-NPTH-drl_map.gbr
+                |__ ffpcbBoard-PTH.drl
+                |__ ffpcbBoard-PTH-drl_map.gbr
+                |__ manufacturingPCB.zip
+            |__ _ffpcbBoard.csv
+            |__ ffpcbBoard.csv
+            |__ ffpcbBoard.kicad_pcb
+            |__ ffpcbBoard.kicad_prl
+            |__ ffpcbBoard.kicad_pro
+            |__ ffpcbBoard.kicad_sch
+            |__ ffpcbBoard.xml
+            |__ fp-info-cache
+            |__ fp-lib-table
+            |__ PCB design.png
+            |__ sym-lib-table
+        |__ PCB board assemble.jpg
+        |__ PCB board.png
+        |__ README.md
+    |__ [DIR] STL files and 3D models
+        |__ 6 and 3 axis load cells.png
+        |__ 6 axis force torque v1.f3d
+        |__ board and force_torque plate.jpg
+        |__ force_torque assembly.jpg
+        |__ README.md
+    |__ tree_output.txt
